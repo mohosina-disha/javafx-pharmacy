@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.2959866220735786" maxHeight="466.0" maxWidth="600" minHeight="400" minWidth="600" prefHeight="400.0" prefWidth="600.0" style="-fx-opacity: 75;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.8" prefHeight="318.0" prefWidth="173.0" styleClass="split-pane" stylesheets="@../styling/fullpackstyling.css">
+         <children>
+            <Button fx:id="btnRegisterNewUser" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" onAction="#btnRegisterNewUser" prefHeight="32.0" prefWidth="167.0" text="Register New User" />
+            <Separator layoutX="-1.0" layoutY="122.0" prefHeight="5.0" prefWidth="181.0" />
+            <Separator layoutX="-10.0" layoutY="72.0" prefWidth="200.0" />
+            <Button fx:id="btnLogOut" layoutX="7.0" layoutY="84.0" mnemonicParsing="false" onAction="#btnLogOutClick" prefHeight="32.0" prefWidth="167.0" text="Log Out" />
+            <Button fx:id="btnExitApplication" layoutX="7.0" layoutY="133.0" mnemonicParsing="false" onAction="#btnExitApplicationClick" prefHeight="32.0" prefWidth="167.0" text="Exit Application" />
+            <Separator layoutX="-11.0" layoutY="172.0" prefHeight="5.0" prefWidth="200.0" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.76" prefHeight="398.0" prefWidth="340.0" styleClass="split-pane">
+         <children>
+            <TilePane layoutX="6.0" layoutY="175.0" prefHeight="233.0" prefWidth="406.0">
+               <children>
+                  <Button fx:id="btnSellDrugs" mnemonicParsing="false" onAction="#btnSellDrugsClick" prefHeight="105.0" prefWidth="199.0" text="SELL DRUGS" />
+                  <Button fx:id="btnViewStockList" mnemonicParsing="false" onAction="#btnViewStockListCLick" prefHeight="105.0" prefWidth="199.0" text="VIEW STOCK LIST" />
+                  <Button fx:id="btnBuyDrugs" mnemonicParsing="false" onAction="#btnBuyDrugsClick" prefHeight="105.0" prefWidth="199.0" text="BUY DRUGS" />
+                  <Button fx:id="btnDashboardT" mnemonicParsing="false" onAction="#btnDashboardTClick" prefHeight="105.0" prefWidth="199.0" text="Dashboard" />
+               </children>
+            </TilePane>
+            <Label layoutX="155.0" layoutY="61.0" prefHeight="40.0" prefWidth="107.0" text="Home" textFill="#149783">
+               <font>
+                  <Font name="Noto Sans Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+  </items>
+   <stylesheets>
+      <URL value="@../styling/backgroudImage.css" />
+      <URL value="@../styling/fullpackstyling.css" />
+   </stylesheets>
+</SplitPane>

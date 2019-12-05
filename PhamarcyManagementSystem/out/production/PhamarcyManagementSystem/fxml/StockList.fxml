@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StockList">
+   <children>
+      <Label layoutX="238.0" layoutY="49.0" text="Stock List">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="115.0" text="Size">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="115.0" text="Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="297.0" layoutY="104.0" orientation="VERTICAL" prefHeight="274.0" prefWidth="6.0" />
+      <Separator layoutX="140.0" layoutY="136.0" prefHeight="0.0" prefWidth="309.0" />
+      <Separator layoutX="140.0" layoutY="103.0" prefHeight="3.0" prefWidth="309.0" />
+      <Separator layoutX="137.0" layoutY="106.0" orientation="VERTICAL" prefHeight="274.0" prefWidth="6.0" />
+      <Separator layoutX="446.0" layoutY="106.0" orientation="VERTICAL" prefHeight="274.0" prefWidth="6.0" />
+      <Label layoutX="199.0" layoutY="160.0" text="Amoxy" />
+      <Label layoutX="199.0" layoutY="191.0" text="Nurofen" />
+      <Label layoutX="199.0" layoutY="219.0" text="Paineeze" />
+
+      <Label fx:id="lblNurofenSize" layoutX="362.0" layoutY="191.0" text="0" />
+      <Label fx:id="lblPaineezeSize" layoutX="362.0" layoutY="219.0" text="0l" />
+      <Separator layoutX="139.0" layoutY="379.0" prefHeight="3.0" prefWidth="309.0" />
+      <Label fx:id="lblSizeAmoxy" layoutX="362.0" layoutY="160.0" text="0" />
+   </children>
+</AnchorPane>

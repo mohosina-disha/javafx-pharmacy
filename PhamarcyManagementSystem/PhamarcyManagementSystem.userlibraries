@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="charm-glisten-4.4.1">
+    <archive path="/home/heso/Downloads/Programs/charm-glisten-4.4.1.jar" />
+  </library>
+  <library name="charm-glisten-4.4.1-javadoc" />
+  <library name="mysql-connector-java-5.1.48">
+    <archive path="/home/heso/Downloads/Programs/mysql-connector-java-5.1.48.jar" />
+  </library>
+</eclipse-userlibraries>
+

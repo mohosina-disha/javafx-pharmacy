@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="366.0" prefWidth="450.0" stylesheets="@../styling/fullpackstyling.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Transaction">
+   <children>
+      <Label fx:id="lbldisplayDrugInfo" layoutX="9.0" layoutY="6.0" prefHeight="97.0" prefWidth="409.0" />
+      <Label fx:id="lblEnterAmount" layoutX="65.0" layoutY="151.0" prefHeight="18.0" prefWidth="132.0" text="Enter Quantity" />
+      <TextField fx:id="txtEnteredAmount" layoutX="254.0" layoutY="146.0" prefHeight="28.0" prefWidth="171.0" />
+      <Button fx:id="btnEnter" layoutX="65.0" layoutY="238.0" mnemonicParsing="false" onAction="#EnterClicked" prefHeight="52.0" prefWidth="359.0" text="Enter" />
+   </children>
+</AnchorPane>
